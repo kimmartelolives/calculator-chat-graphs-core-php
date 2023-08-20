@@ -1,6 +1,10 @@
 # calculator-chat-graphs-core-php
 Calculator Materials MIR4 - Core / Pure PHP
 
+https://summerskyteampogi.000webhostapp.com/login-portal.php
+Email: user_test@example.com
+Pass: usertest123
+
 ![253676801-729108f1-7b56-4315-aabe-b02ccfe81580](https://github.com/kimmartelolives/calculator-chat-graphs-core-php/assets/61133176/206885a1-17f7-4897-b91f-27a067a18afc)
 
 ![253677344-e775442b-76b1-455d-bdc9-279ac0eed7ec](https://github.com/kimmartelolives/calculator-chat-graphs-core-php/assets/61133176/24f23d68-769e-4948-9485-29dc6733f7b9)
