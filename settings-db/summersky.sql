@@ -24,41 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `activity_logs`
---
-
-CREATE TABLE `activity_logs` (
-  `id` int(11) NOT NULL,
-  `UserAccountId` int(10) NOT NULL,
-  `Message` varchar(100) NOT NULL,
-  `Type` varchar(100) NOT NULL,
-  `Category` varchar(100) NOT NULL,
-  `Status` varchar(100) NOT NULL,
-  `IsRead` int(3) NOT NULL,
-  `CreatedOn` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `activity_logs`
---
-
-INSERT INTO `activity_logs` (`id`, `UserAccountId`, `Message`, `Type`, `Category`, `Status`, `IsRead`, `CreatedOn`) VALUES
-(0, 36, 'New Account Registered', 'Registration', 'Resident', 'Added', 0, '2023-06-04 23:14:33'),
-(0, 35, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-04 23:16:32'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-04 23:17:09'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-04 23:18:17'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-04 23:18:55'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-04 23:19:38'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-04 23:20:17'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-04 23:22:53'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-04 23:23:56'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-04 23:24:12'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-04 23:52:33'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-05 11:08:15'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-19 22:54:29'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-19 22:54:49'),
-(0, 36, 'Account Login', 'Login logs', 'Resident', 'New', 0, '2023-06-22 14:38:23'),
-(0, 37, 'New Account Registered', 'Registration', 'Resident', 'Added', 0, '2023-06-23 04:24:20');
 
 -- --------------------------------------------------------
 
@@ -222,8 +187,6 @@ INSERT INTO `craft_weapon_legendary` (`id`, `project_name`, `glittering`, `darks
 
 CREATE TABLE `user_account` (
   `id` int(11) NOT NULL,
-  `Credits` int(100) DEFAULT NULL,
-  `CensusId` int(100) DEFAULT NULL,
   `UserName` varchar(100) DEFAULT NULL,
   `Pass` varchar(100) DEFAULT NULL,
   `PhoneNumber` varchar(100) DEFAULT NULL,
